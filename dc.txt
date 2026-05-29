@@ -1,0 +1,39 @@
+
+{ "urls": [{ "url": "http://gh.llkk.cc/https://raw.githubusercontent.com/LIUJEI/TB/master/影视.json",  "name": "蓝天 "  },
+
+{ "url": "https://gitee.com/zhujrong/zy/raw/master/tv.json", "name": "青山" },
+
+{ "url": "https://gh-proxy.com/https://github.com/junrzhu/zy/blob/main/mohuo0512.txt", "name": "魔盒" },
+
+{ "url": "https://gh-proxy.com/https://raw.githubusercontent.com/junrzhu/zy/refs/heads/main/tv.json", "name": "小米" },
+
+{ "url": "http://影视仓.com/", "name": "影视仓"},
+
+{ "url": "https://13537.kstore.vip/tvbox/test.json", "name": "苍蓝"}, 
+
+{ "url": "https://700sjro44343.vicp.fun/eggp/0211/tv.json", "name": "二月红" },
+
+{ "url": "http://cdn.qiaoji8.com/tvbox.json", "name": "巧记" },
+
+
+ {   "url": "http://肥猫.net/tv", "name": "肥猫线路"  },   
+
+  { "url": "http://fty.xxooo.cf/tv",  "name": "饭太硬线路"  },      
+
+  {  "url": "https://tv.xn--yhqu5zs87a.top", "name": "莱妮丝"  }, 	
+
+  {  "url": "https://xn--sdds-rp5imh.v.nxog.top/apitv.php?id=3", "name": "欧哥"  }, 	
+     	 
+{ "url": "https://gh-proxy.com/https://raw.githubusercontent.com/tushen6/Tattoo/refs/heads/main/OK/okys.json", "name": "林中" },
+
+{ "url": "http://宝盒接口.top", "name": "宝盒" },
+
+{ "url": "https://qist.ugigc.dpdns.org/xiaosa/api.json",   "name": "《潇洒》"},	
+
+{ "url": "http://我不是.摸鱼儿.top", "name": "摸鱼" },
+
+{ "url": "https://9280.kstore.vip/newwex.json", "name": "放牛娃" },
+
+   { "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/001.json", "name": "分享者"  }
+]
+}
