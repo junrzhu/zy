@@ -14,19 +14,12 @@
     "sites": [
         {
             "key": "豆豆",
-            "name": "🎬豆瓣┃精选 仅供测试 备用：https://zzzy.shop/tv/",
+            "name": "🎬豆瓣┃精选 ",
             "type": 3,
             "quickSearch": 0,
             "filterable": 0,
             "changeable": 0,
             "api": "csp_Douban",
-            "searchable": 0
-        },
-        {
-            "key": "config",
-            "name": "⚙️Cookie┃配置 贩卖后果自负",
-            "type": 3,
-            "api": "csp_Config",
             "searchable": 0
         },
        
@@ -178,16 +171,8 @@
             "api": "csp_Jpys",
             "ext": "https://ghw9zwp5.com/"
         },
-        {
-            "key": "csp_MiSou",
-            "name": "🔍米搜┃盘搜",
-            "type": 3,
-            "timeout": 12,
-            "searchable": 1,
-            "quickSearch": 0,
-            "api": "csp_MiSou"
-        },
       
+        
         
         {
             "key": "push_agent",
