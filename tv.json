@@ -5,6 +5,12 @@
     "wallpaper": "https://www.wexwp.cc/bizhi.php",
     "logo": "https://wkphoto.bj.bcebos.com/bba1cd11728b47106798119ad3cec3fdfc032335.jpg",
     "lives": [
+         {
+            "name": "移动直播",
+            "type": 0,
+            "url": "https://gitee.com/zhujrong/zy/raw/master/ipv6.json",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}"
+        },
         {
             "name": "📺 平台直播",
             "type": 0,
@@ -22,7 +28,8 @@
             "api": "csp_Douban",
             "searchable": 0
         },
-       
+        {"key":"南瓜","name":"分享南瓜","type":3,"api":"csp_NanGua","playerType":2,"jar":"https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar","ext":"7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"}, 
+  
         
         {
             "key": "天天",
