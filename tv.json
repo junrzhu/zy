@@ -10,14 +10,6 @@
             "type": 0,
             "url": "./lives/jsyd.txt",
          "epg": "https://epg.112114.xyz/?ch={name}&date={date}"
-        },
-        
-        
-       {
-            "name": "咪咕直播",
-            "type": 0,
-           "url": "./lives/miguzb.txt",
-            "epg": "https://epg.v1.mk/json?ch={name}&date={date}"
         }
         
     ],
