@@ -29,7 +29,7 @@
         
         {
             "key": "天天",
-            "name": "🚀秒播┃1080P",
+            "name": "秒播┃1080P",
             "type": 3,
             "quickSearch": 1,
             "searchable": 1,
@@ -39,7 +39,7 @@
         },
         {
             "key": "csp_Wwys",
-            "name": "🌾农民┃1080P",
+            "name": "农民┃1080P",
             "type": 3,
             "api": "csp_Wwys",
             "timeout": 12,
@@ -79,35 +79,35 @@
         
         {
             "key": "葫芦",
-            "name": "🪽葫芦┃1080P",
+            "name": "葫芦┃1080P",
             "type": 3,
             "api": "csp_AppGet",
             "ext": "https://mobile-1251126973.cos.ap-guangzhou.myqcloud.com/maccos_config.txt|8R33VQSxzmCaHpEX|V122|okhttp/3.10.0"
         },
         {
             "key": "新首发",
-            "name": "👻标清┃1080P",
+            "name": "标清┃1080P",
             "type": 3,
             "api": "csp_AppGet",
             "ext": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/600.txt|FTgP4Gq8zPiqbt7M|V122|okhttp/3.10.0"
         },
         {
             "key": "四叶草",
-            "name": "🍀幸运┃1080P",
+            "name": "幸运┃1080P",
             "type": 3,
             "api": "csp_AppGet",
             "ext": "https://yzysap.oss-cn-hangzhou.aliyuncs.com/sss.txt|wNCwbXzr0Bm6cS2C|V122|okhttp/3.10.0"
         },
         {
             "key": "猪猪",
-            "name": "🐷猪猪┃1080P",
+            "name": "猪猪┃1080P",
             "type": 3,
             "api": "csp_AppGet",
             "ext": "https://snysw.xyz/mf4krxz329.txt|1234567887654321|V119"
         },
         {
             "key": "爱营",
-            "name": "💥爱影┃1080P",
+            "name": "爱影┃1080P",
             "type": 3,
             "searchable": 1,
             "changeable": 1,
@@ -116,27 +116,27 @@
         },
         {
             "key": "3QQQ",
-            "name": "🍅大鹅┃1080P",
+            "name": "大鹅┃1080P",
             "type": 3,
             "timeout": 15,
             "api": "csp_App3Q"
         },
         {
             "key": "csp_SaoHuo",
-            "name": "🔥火火┃1080P",
+            "name": "火火┃1080P",
             "type": 3,
             "api": "csp_SaoHuo"
         },
         {
             "key": "麦田",
-            "name": "🌾麦田┃1080P",
+            "name": "麦田┃1080P",
             "type": 3,
             "api": "csp_AppV6",
             "ext": "http://172.247.227.203:25321/mtys.php"
         },
         {
             "key": "听心99",
-            "name": "🦉欣欣┃1080P",
+            "name": "欣欣┃1080P",
             "type": 3,
             "api": "csp_App99",
             "ext": {
@@ -153,7 +153,7 @@
         },
         {
             "key": "追番达人99",
-            "name": "🐎追番┃1080P",
+            "name": "追番┃1080P",
             "type": 3,
             "api": "csp_App99",
             "ext": {
@@ -170,7 +170,7 @@
         },
         {
             "key": "荐片",
-            "name": "🧲荐片┃1080P",
+            "name": "荐片┃1080P",
             "quickSearch": 0,
             "changeable": "0",
             "searchable": 1,
@@ -183,11 +183,17 @@
             },
             "ext": "https://api.ztcgi.com"
         },
-     
+        {
+            "key": "独播库",
+            "name": "独播┃1080P",
+            "type": 3,
+            "api": "./api/2042044022836473856#dbokutv.js"
+        },
+
         
         {
             "key": "csp_Gz360",
-            "name": "🍉瓜子┃1080P",
+            "name": "瓜子┃1080P",
             "type": 3,
             "timeout": 12,
             "searchable": 1,
@@ -196,7 +202,7 @@
         },
         {
             "key": "csp_Jpys",
-            "name": "🥇金牌┃1080P",
+            "name": "金牌┃1080P",
             "type": 3,
             "timeout": 12,
             "searchable": 1,
