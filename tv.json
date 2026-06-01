@@ -197,7 +197,10 @@
             "api": "./js/独播库.js",
             "changeable": 1
         },
-        
+          {"key": "厂长影视",
+        "name": "厂长｜影视",
+         "type": 3, "jar": "./jars/fty.jar",
+              "api": "csp_Czsapp","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://www.czzy89.com"},
         {
             "key": "csp_Gz360",
             "name": "瓜子┃1080P",
