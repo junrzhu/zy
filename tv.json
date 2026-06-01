@@ -189,7 +189,14 @@
             "type": 3,
             "api": "./api/2042044022836473856#dbokutv.js"
         },
-
+ {
+            "key": "独播库",
+            "name": "🦢独播库✨蓝光秒播",
+            "type": 3,
+         "jar": "./jars/zc0502.png",
+            "api": "./js/独播库.js",
+            "changeable": 1
+        },
         
         {
             "key": "csp_Gz360",
