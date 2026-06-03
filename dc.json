@@ -3,6 +3,8 @@
 
 { "url": "https://gitee.com/zhujrong/zy/raw/master/tv.json", "name": "青山" },
 
+ { "url": "https://gitee.com/zhujrong/zy/raw/master/xiaomi.json", "name": "白云" },
+
 { "url": "https://gh-proxy.com/https://github.com/junrzhu/zy/blob/main/mohuo0512.txt", "name": "魔盒" },
 
 { "url": "https://gh-proxy.com/https://raw.githubusercontent.com/junrzhu/zy/refs/heads/main/tv.json", "name": "蓝小天" },
