@@ -220,11 +220,20 @@
         },
    {
       "key": "火云",
-      "name": "💝分享火云",
+      "name": "火云┃1080P",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/hy.js"
     },
-        
+      {
+      "key": "追剧",
+      "name": "追剧┃1080P",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/追剧.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },    
         {
             "key": "csp_Gz360",
             "name": "瓜子┃1080P",
