@@ -35,7 +35,7 @@
         
         {
             "key": "天天",
-            "name": "秒播┃1080P",
+            "name": "天天┃1080P",
             "type": 3,
             "quickSearch": 1,
             "searchable": 1,
@@ -53,7 +53,7 @@
         },
          {
             "key": "热播",
-            "name": "热播┃多线",
+            "name": "热播┃1080P",
             "type": 3,
               "jar": "./jars/fty.jar",
             "api": "csp_AppTTGuard",
@@ -67,7 +67,7 @@
 
         {
             "key": "橙子99",
-            "name": "橙子丨APP",
+            "name": "橙子┃1080P",
             "type": 3,
               "jar": "./jars/xiaosa.jar",
             "api": "csp_App99",
@@ -199,7 +199,7 @@
         },
             {
             "key": "苹果",
-            "name": "苹果｜APP",
+            "name": "苹果┃1080P",
             "type": 3,
              "jar": "./jars/xiaosa.jar",       
             "api": "csp_AppDrama",
