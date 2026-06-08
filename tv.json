@@ -253,7 +253,17 @@
             "api": "csp_Jpys",
             "ext": "https://ghw9zwp5.com/"
         },
-      
+        {
+            "key": "789",
+            "name": "酒吧┃1080P",
+            "type": 1,
+            "api": "https://www.caiji.cyou/api.php/provide/vod",
+            "searchable": 1,
+            "playUrl": "json:https://api.huaqi.pro/api/?key=4fd28a31e1e6d316d32d3b6546768643&url=",
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
         
         
         {
