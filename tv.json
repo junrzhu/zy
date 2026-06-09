@@ -264,7 +264,13 @@
             "quickSearch": 1,
             "filterable": 0
         },
-        
+         {
+            "key": "爱剧",
+            "name": "爱剧┃1080P",
+            "type": 3,
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/tt/refs/heads/0/ppx.py",
+            "ext": "http://43.248.117.123:4680"
+        },
         
         {
             "key": "push_agent",
