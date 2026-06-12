@@ -82,7 +82,15 @@
                 "buildSignature": "99DA983CF878CEC016616175464A91A94775E20A489F07F76FCDEA1A0F2B6B45"
             }
         },
-        
+          {
+      "key": "fxzYD",
+      "name": "移动┃1080P",
+      "type": 3,
+       "jar": "./jars/YD.jar",  
+      "api": "csp_YDjisu",
+      "searchable": 1,
+      "changeable": 1
+   },
         {
             "key": "葫芦",
             "name": "葫芦┃1080P",
