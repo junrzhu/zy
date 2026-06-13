@@ -251,6 +251,14 @@
             "quickSearch": 0,
             "api": "csp_Gz360"
         },
+         {
+    "key": "农民影视",
+    "name": "农村┃1080P",
+    "type": 3,
+     "jar": "./jars/xiaosa.jar",  
+    "api": "csp_Wwys",
+    "ext": "https://vip.wwgz.cn:5200"
+},
         {
             "key": "csp_Jpys",
             "name": "金牌┃1080P",
