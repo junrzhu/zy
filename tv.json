@@ -260,15 +260,12 @@
     "ext": "https://vip.wwgz.cn:5200"
 },
         {
-            "key": "csp_Jpys",
-            "name": "金牌┃1080P",
+            "key": "drpy_js_金牌",
+            "name": "金牌影视",
             "type": 3,
-            "timeout": 12,
-            "searchable": 1,
-            "quickSearch": 0,
-            "api": "csp_Jpys",
-            "ext": "https://ghw9zwp5.com/"
-        },
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/金牌影视.js"
+         },
         {
             "key": "789",
             "name": "酒吧┃1080P",
