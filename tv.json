@@ -284,7 +284,15 @@
             "api": "https://gh-proxy.com/https://raw.githubusercontent.com/junrzhu/zy/refs/heads/main/PY/ppx.py",
             "ext": "http://43.248.117.123:4680"
         },
-        
+         {
+            "key": "山楂",
+            "name": "山楂┃1080P",
+            "type": 3,
+            "timeout": 15,
+            "api": "./api/shanzha.py",
+            "ext": ""
+        },
+
         {
             "key": "push_agent",
             "name": "推送┃播放",
