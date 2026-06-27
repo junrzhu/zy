@@ -284,6 +284,14 @@
             "api": "https://gh-proxy.com/https://raw.githubusercontent.com/junrzhu/zy/refs/heads/main/PY/ppx.py",
             "ext": "http://43.248.117.123:4680"
         },
+             {
+            "key": "csp_Czsapp",
+            "name": "厂长┃影视",
+            "type": 3,
+            "api": "csp_Czsapp",
+            "ext": "https://www.4kcz.com"
+        },
+
          {
             "key": "山楂",
             "name": "山楂┃1080P",
