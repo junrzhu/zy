@@ -259,13 +259,17 @@
     "api": "csp_Wwys",
     "ext": "https://vip.wwgz.cn:5200"
 },
-        {
-            "key": "drpy_js_金牌",
+           {
+            "key": "csp_Jpys",
             "name": "金牌┃1080P",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/金牌影视.js"
-         },
+            "timeout": 12,
+            "searchable": 1,
+            "quickSearch": 0,
+            "api": "csp_Jpys",
+            "ext": "https://y2s52n7.com"
+        },
+
         {
             "key": "789",
             "name": "酒吧┃1080P",
