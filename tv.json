@@ -32,7 +32,7 @@
         "jar": "./jars/nangua.jar",
         "ext":"7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"}, 
        {
-            "name": "🍉瓜子",
+            "name": "瓜子精选",
             "key": "Guazi",
             "type": 3,
              "jar": "./jars/nangua.jar", 
@@ -256,16 +256,8 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1
-    },    
-        {
-            "key": "csp_Gz360",
-            "name": "瓜子┃1080P",
-            "type": 3,
-            "timeout": 12,
-            "searchable": 1,
-            "quickSearch": 0,
-            "api": "csp_Gz360"
-        },
+    },     
+        
          {
     "key": "农民影视",
     "name": "农村┃1080P",
