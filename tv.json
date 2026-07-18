@@ -31,7 +31,22 @@
         "playerType":2,
         "jar": "./jars/nangua.jar",
         "ext":"7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"}, 
-  
+       {
+            "name": "🍉瓜子",
+            "key": "Guazi",
+            "type": 3,
+             "jar": "./jars/nangua.jar", 
+            "api": "csp_GuaziAmns",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "sites": "",
+                "filters": "https://file.icve.com.cn/file_doc/822/528/CD984013F5776F759DFC815995F87BFB.aowu"
+            },
+            "jar": "./jars/弹幕.jar"
+        },
+
         
         {
             "key": "天天",
