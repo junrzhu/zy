@@ -26,7 +26,7 @@
         },
        {
             "key": "YunZhenXiang",
-            "name": "秒播┃极速帧享",
+            "name": "秒播┃1080P",
             "type": 3,
             "api": "csp_YunZhenXiang",
             "searchable": 1,
@@ -39,7 +39,7 @@
     },
 
        {
-            "name": "瓜子精选",
+            "name": "瓜子┃1080P",
             "key": "Guazi",
            "type":3,
             "api": "csp_GuaziAmns",
@@ -54,7 +54,7 @@
         },
  {
             "key": "剧圈99",
-            "name": "剧圈┃高清影视",
+            "name": "剧圈┃1080P",
             "type": 3,
             "api": "csp_App99",
             "ext": {
@@ -118,15 +118,8 @@
                 "buildSignature": "99DA983CF878CEC016616175464A91A94775E20A489F07F76FCDEA1A0F2B6B45"
             }
         },
-          {
-      "key": "fxzYD",
-      "name": "移动┃1080P",
-      "type": 3,
-       "jar": "./jars/YD.jar",  
-      "api": "csp_YDjisu",
-      "searchable": 1,
-      "changeable": 1
-   },
+         
+        
         {
             "key": "葫芦",
             "name": "葫芦┃1080P",
@@ -136,7 +129,7 @@
         },
       {
             "key": "新首发",
-            "name": "首发┃热门4K",
+            "name": "首发┃1080P",
             "type": 3,
             "api": "csp_AppGet",
             "ext": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/603.txt|FTgP4Gq8zPiqbt7M|V122|okhttp/3.10.0"
@@ -299,17 +292,7 @@
             "ext": "https://y2s52n7.com"
         },
 
-        {
-            "key": "789",
-            "name": "酒吧┃1080P",
-            "type": 1,
-            "api": "https://www.caiji.cyou/api.php/provide/vod",
-            "searchable": 1,
-            "playUrl": "json:https://api.huaqi.pro/api/?key=4fd28a31e1e6d316d32d3b6546768643&url=",
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
+        
          {
             "key": "爱剧",
             "name": "爱剧┃1080P",
