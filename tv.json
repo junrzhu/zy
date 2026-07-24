@@ -24,13 +24,20 @@
             "api": "csp_Douban",
             "searchable": 0
         },
-       {"key":"南瓜",
-        "name":"南瓜┃1080P",
-        "type":3,
-        "api":"csp_NanGua",
-        "playerType":2,
-        "jar": "./jars/nangua.jar",
-        "ext":"7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"}, 
+       {
+            "key": "YunZhenXiang",
+            "name": "秒播┃极速帧享",
+            "type": 3,
+            "api": "csp_YunZhenXiang",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "index_url": "https://ss.trgfd.cn/cache/index/com.baiyunvideo.app.json",
+                "key_api": "https://www.tangsan.fun/zx.php"
+            }
+    },
+
        {
             "name": "瓜子精选",
             "key": "Guazi",
