@@ -112,13 +112,14 @@
             "api": "csp_AppGet",
             "ext": "https://mobile-1251126973.cos.ap-guangzhou.myqcloud.com/maccos_config.txt|8R33VQSxzmCaHpEX|V122|okhttp/3.10.0"
         },
-        {
+      {
             "key": "新首发",
-            "name": "标清┃1080P",
+            "name": "首发┃热门4K",
             "type": 3,
             "api": "csp_AppGet",
-            "ext": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/601.txt|FTgP4Gq8zPiqbt7M|V122|okhttp/3.10.0"
+            "ext": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/603.txt|FTgP4Gq8zPiqbt7M|V122|okhttp/3.10.0"
         },
+
         {
             "key": "四叶草",
             "name": "幸运┃1080P",
