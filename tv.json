@@ -309,7 +309,7 @@
         },
     {
             "key": "csp_Bili",
-            "name": "哔哩┃哔哩",
+            "name": "哔哩┃1080P",
             "type": 3,
             "api": "csp_Bili",
             "quickSearch": 0,
@@ -327,7 +327,7 @@
 
           {
             "key": "csp_PianKu8",
-            "name": "山楂┃热门4K",
+            "name": "山楂┃1080P",
             "type": 3,
             "api": "csp_PianKu8"
         },
