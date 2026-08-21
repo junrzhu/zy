@@ -320,7 +320,13 @@
                 "ratio": 1.333
             }
         },
-
+{
+            "key": "优酷",
+            "name": "优酷视频",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "https://raw.githubusercontent.com/junrzhu/zy/refs/heads/main/js/%E4%BC%98%E9%85%B7.js"
+        },
           {
             "key": "csp_PianKu8",
             "name": "山楂┃1080P",
@@ -366,6 +372,18 @@
             "name": "📦 Json聚合",
             "type": 3,
             "url": "Demo"
+        },
+          {
+            "name": "💝分享者解析①",
+            "type": 1,
+            "url": "https://test1.12321app.com/daoliansiquanjia.php?url="
+        },
+        
+        
+        {
+            "name": "💝分享者解析④",
+            "type": 1,
+            "url": "https://player.gimy.bot/u/parse.php?url="
         },
         {
             "name": "🎬 影视聚合",
