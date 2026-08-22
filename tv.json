@@ -1,74 +1,49 @@
 //资源全部免费，仅供测试交流，请勿内置传播与转卖，微信公众号：奇奇资源库，交流Q群号码：90859992。
 
 {
-    "spider": "./jars/xiaomi.jar",
-    "wallpaper": "https://www.wexwp.cc/bizhi.php",
-    "logo": "https://wkphoto.bj.bcebos.com/bba1cd11728b47106798119ad3cec3fdfc032335.jpg",
+    "wallpaper": "https://wp.upx8.com/api.php",
+     "spider": "https://gitee.com/zhujrong/zy/raw/master/jars/fty.jar",
     "lives": [
-         {
+      {
             "name": "移动直播",
             "type": 0,
-            "url": "./lives/jsyd.txt",
-         "epg": "https://epg.112114.xyz/?ch={name}&date={date}"
+            "url": "https://gitee.com/zhujrong/zy/raw/master/ipv6.json",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}"
+        },
+       
+
+           {
+            "name": "咪咕直播",
+            "type": 0,
+            "url": "https://gitee.com/zhujrong/zy/raw/master/lives/dszb1124.txt",
+            "epg": "https://epg.v1.mk/json?ch={name}&date={date}"
+        },
+
+        {
+            "name": "江苏移动",
+            "type": 0,
+            "url": "https://gitee.com/zhujrong/zy/raw/master/lives/ydds.json",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}"
         }
-        
     ],
     "sites": [
         {
             "key": "豆豆",
             "name": "豆瓣┃精选 ",
             "type": 3,
+              "jar": "./jars/xiaomi.jar",  
             "quickSearch": 0,
             "filterable": 0,
             "changeable": 0,
             "api": "csp_Douban",
             "searchable": 0
         },
-       {
-            "key": "YunZhenXiang",
-            "name": "秒播┃1080P",
-            "type": 3,
-            "api": "csp_YunZhenXiang",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "index_url": "https://ss.trgfd.cn/cache/index/com.baiyunvideo.app.json",
-                "key_api": "https://www.tangsan.fun/zx.php"
-            }
-    },
-
-          {
-            "key": "csp_Gz360",
-            "name": "瓜子┃1080P",
-            "type": 3,
-            "timeout": 12,
-            "searchable": 1,
-            "quickSearch": 0,
-            "api": "csp_Gz360"
-        },
-
- {
-            "key": "剧圈99",
-            "name": "剧圈┃1080P",
-            "type": 3,
-            "api": "csp_App99",
-            "ext": {
-                "host": "http://124.221.3.182:19987/app/bn",
-                "appkey": "d1f0c269eab74d93821fffc9befdbbba",
-                "versionName": "1.2.0",
-                "name": "剧圈圈",
-                "package": "com.qingtangxiaozhuan.xyz",
-                "buildNumber": "2002",
-                "buildSignature": "054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"
-            }
-        },
-
-        
+      
         {
             "key": "天天",
             "name": "天天┃1080P",
             "type": 3,
+               "jar": "./jars/xiaomi.jar", 
             "quickSearch": 1,
             "searchable": 1,
             "api": "csp_AppRJ",
@@ -79,54 +54,32 @@
             "key": "csp_Wwys",
             "name": "农民┃1080P",
             "type": 3,
+               "jar": "./jars/xiaomi.jar", 
             "api": "csp_Wwys",
             "timeout": 12,
             "ext": "https://vip.wwgz.cn:5200"
         },
-         {
-            "key": "热播",
-            "name": "热播┃1080P",
-            "type": 3,
-              "jar": "./jars/fty.jar",
-            "api": "csp_AppTTGuard",
-            "timeout": 10,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "uqGL1bNENExT7/hGxpSE5qU="
-        },
-
-        {
-            "key": "橙子99",
-            "name": "橙子┃1080P",
-            "type": 3,
-              "jar": "./jars/xiaosa.jar",
-            "api": "csp_App99",
-            "ext": {
-                "host": "http://113.31.180.218:19987/app/bn",
-                "LoginPath": "/app/log",
-                "appkey": "6e8f3764a0644f3686ab5cdd57bcdf48",
-                "versionName": "4.3.1",
-                "name": "小橙子",
-                "package": "com.xchengzix.app",
-                "buildNumber": "2001",
-                "buildSignature": "99DA983CF878CEC016616175464A91A94775E20A489F07F76FCDEA1A0F2B6B45"
-            }
-        },
-         
-        
+       {
+    "key": "农民影视",
+    "name": "农村┃1080P",
+    "type": 3,
+     "jar": "./jars/xiaosa.jar",  
+    "api": "csp_Wwys",
+    "ext": "https://vip.wwgz.cn:5200"
+},
         {
             "key": "葫芦",
             "name": "葫芦┃1080P",
             "type": 3,
+               "jar": "./jars/xiaomi.jar", 
             "api": "csp_AppGet",
             "ext": "https://mobile-1251126973.cos.ap-guangzhou.myqcloud.com/maccos_config.txt|8R33VQSxzmCaHpEX|V122|okhttp/3.10.0"
         },
-      {
+       {
             "key": "新首发",
             "name": "首发┃1080P",
             "type": 3,
+               "jar": "./jars/xiaomi.jar", 
             "api": "csp_AppGet",
             "ext": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/603.txt|FTgP4Gq8zPiqbt7M|V122|okhttp/3.10.0"
         },
@@ -135,20 +88,17 @@
             "key": "四叶草",
             "name": "幸运┃1080P",
             "type": 3,
+               "jar": "./jars/xiaomi.jar", 
             "api": "csp_AppGet",
             "ext": "https://yzysap.oss-cn-hangzhou.aliyuncs.com/sss.txt|wNCwbXzr0Bm6cS2C|V122|okhttp/3.10.0"
         },
-        {
-            "key": "猪猪",
-            "name": "猪猪┃1080P",
-            "type": 3,
-            "api": "csp_AppGet",
-            "ext": "https://snysw.xyz/mf4krxz329.txt|1234567887654321|V119"
-        },
+      
+      
         {
             "key": "爱营",
             "name": "爱影┃1080P",
             "type": 3,
+               "jar": "./jars/xiaomi.jar", 
             "searchable": 1,
             "changeable": 1,
             "api": "csp_AppGet",
@@ -158,43 +108,59 @@
             "key": "3QQQ",
             "name": "大鹅┃1080P",
             "type": 3,
+               "jar": "./jars/xiaomi.jar", 
             "timeout": 15,
-            "api": "csp_App3Q"
+            "api": "csp_App3Q",
+            "ext": "https://asd123sx23xdacsx.top"
         },
         {
             "key": "csp_SaoHuo",
             "name": "火火┃1080P",
             "type": 3,
+               "jar": "./jars/xiaomi.jar", 
             "api": "csp_SaoHuo"
         },
         {
             "key": "麦田",
             "name": "麦田┃1080P",
             "type": 3,
+               "jar": "./jars/xiaomi.jar", 
             "api": "csp_AppV6",
             "ext": "http://172.247.227.203:25321/mtys.php"
         },
-        {
-            "key": "听心99",
-            "name": "欣欣┃1080P",
+           {
+      "key": "火云",
+      "name": "火云┃1080P",
+      "type": 3,
+         "jar": "./jars/xiaomi.jar", 
+      "api": "https://gitee.com/zhujrong/zy/raw/master/js/hy.js"
+    },
+     {
+      "key": "追剧",
+      "name": "追剧┃1080P",
+      "type": 3,
+         "jar": "./jars/xiaomi.jar", 
+      "api": "https://gitee.com/zhujrong/zy/raw/master/py/追剧.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+            "key": "爱剧",
+            "name": "爱剧┃1080P",
             "type": 3,
-            "api": "csp_App99",
-            "ext": {
-                "host": "https://api.12321app.com",
-                "LoginPath": "/app/log",
-                "version": "0b4328287a5d953e",
-                "appkey": "a0a18659a9977a47e53442cd084b536c",
-                "versionName": "2.8.1",
-                "name": "听心视频",
-                "package": "com.iksp.adsys.jjsp",
-                "buildNumber": "2001",
-                "buildSignature": "03DD38CE4C3D62D0F0DEFACC06768D14EB382C7BD77A05B2EBF4D66E154A0D47"
-            }
+               "jar": "./jars/xiaomi.jar", 
+             "api": "https://gitee.com/zhujrong/zy/raw/master/py/ppx.py",
+            "ext": "http://43.248.117.123:4680"
         },
+       
+       
         {
             "key": "追番达人99",
             "name": "追番┃1080P",
             "type": 3,
+               "jar": "./jars/xiaomi.jar", 
             "api": "csp_App99",
             "ext": {
                 "host": "https://app2026.ystva.com",
@@ -208,30 +174,26 @@
                 "buildSignature": "03DD38CE4C3D62D0F0DEFACC06768D14EB382C7BD77A05B2EBF4D66E154A0D47"
             }
         },
-        {
-            "key": "荐片",
-            "name": "荐片┃1080P",
-            "quickSearch": 0,
-            "changeable": "0",
+         
+         
+    {
+            "key": "爱看机器人",
+            "name": "爱看 • 影视",
+            "type": 3,
+            "jar": "./jars/xiaosa.jar",    
+            "api": "csp_Ikanbot",
             "searchable": 1,
-            "timeout": 15,
-            "type": 3,
-            "api": "csp_Jianpian",
-            "style": {
-                "type": "rect",
-                "ratio": 1.333
-            },
-            "ext": "https://api.ztcgi.com"
-        },        
- {
-            "key": "独播库",
-            "name": "独播┃1080P",
-            "type": 3,
-         "jar": "./jars/zc0502.png",
-            "api": "./js/独播库.js",
-            "changeable": 1
+            "quickSearch": 1,
+            "filterable": 1
         },
-            {
+   {
+            "key": "馆源",
+            "name": "馆源|自定",
+            "type": 3,
+             "jar": "./jars/hb.jar",  
+            "api": "csp_HB360"
+        },
+          {
             "key": "苹果",
             "name": "苹果┃1080P",
             "type": 3,
@@ -252,110 +214,65 @@
                 "decrypt": "0"
             }
         },
-   {
-      "key": "火云",
-      "name": "火云┃1080P",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/hy.js"
-    },
-      {
-      "key": "追剧",
-      "name": "追剧┃1080P",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/junrzhu/zy/refs/heads/main/PY/追剧.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },     
-        
-         {
-    "key": "农民影视",
-    "name": "农村┃1080P",
-    "type": 3,
-     "jar": "./jars/xiaosa.jar",  
-    "api": "csp_Wwys",
-    "ext": "https://vip.wwgz.cn:5200"
-},
-           {
-            "key": "csp_Jpys",
-            "name": "金牌┃1080P",
+            {
+            "key": "橘汁",
+            "name": "橘汁 • APP",
             "type": 3,
-            "timeout": 12,
+           "jar": "./jars/xiaosa.jar",     
+            "api": "csp_AppDrama",
             "searchable": 1,
-            "quickSearch": 0,
-            "api": "csp_Jpys",
-            "ext": "https://y2s52n7.com"
-        },
-
-        
-         {
-            "key": "爱剧",
-            "name": "爱剧┃1080P",
-            "type": 3,
-            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/junrzhu/zy/refs/heads/main/PY/ppx.py",
-            "ext": "http://43.248.117.123:4680"
-        },
-             {
-            "key": "csp_Czsapp",
-            "name": "厂长┃影视",
-            "type": 3,
-            "api": "csp_Czsapp",
-            "ext": "https://www.4kcz.com"
-        },
-    {
-            "key": "csp_Bili",
-            "name": "哔哩┃1080P",
-            "type": 3,
-            "api": "csp_Bili",
-            "quickSearch": 0,
-            "timeout": 12,
-            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
             "ext": {
-                "json": "https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/db3b02559ec04736/bili.json",
-                "cookie": ""
-            },
+                "appName": "橘汁",
+                "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
+                "dataKey": "OW1WBLFZCLJ0WTNJCDMYEGXWYVP3PT0=",
+                "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+                "pkg": "com.mxj.wylcjbxyx",
+                "host": "",
+                "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
+                "version": "3.0.2.3",
+                "decrypt": "1"
+            }
+        },
+ {
+            "key": "华谊",
+            "name": "华谊 • APP",
+            "type": 3,
+             "jar": "./jars/xiaosa.jar",    
+            "api": "csp_AppDrama",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "appName": "华谊",
+                "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCp9Ek4wIlQAtwFnuBRlsFiow2tr+4UOciGeNKbY7nL74etUqUb6fvpOSOHhFEfaWlfwUpOB17x3JEL3No19nfjCeVYrYPjlJcgoqUWH/tfIfFAQWvtxBIBlKazkhw8d3ChysWmeWRikKqkBsVRY4oqNPuj4sjm6Zult0U4I4prRQIDAQAB",
+                "dataKey": "NDBYSZR1DMRRZ05NSUCWEJNIYWLBPT0=",
+                "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+                "pkg": "com.muyue.tool",
+                "host": "",
+                "site": "https://vip.123pan.cn/1851089669/oss/az5.txt",
+                "version": "1.0.0.4",
+                "decrypt": "1"
+            }
+        },
+        {
+            "key": "荐片",
+            "name": "荐片┃1080P",
+            "quickSearch": 0,
+            "changeable": "0",
+            "searchable": 1,
+            "timeout": 15,
+            "type": 3,
+              "jar": "./jars/xiaomi.jar", 
+            "api": "csp_Jianpian",
             "style": {
                 "type": "rect",
                 "ratio": 1.333
-            }
+            },
+            "ext": "https://api.ztcgi.com"
         },
-{
-            "key": "优酷",
-            "name": "优酷视频",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "https://raw.githubusercontent.com/junrzhu/zy/refs/heads/main/js/%E4%BC%98%E9%85%B7.js"
-        },
-         {
-            "key": "drpy_js_腾云驾雾",
-            "name": "腾云┃1080P",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/腾云驾雾.js"
-        },
-        {
-            "key": "drpy_js_百忙无果",
-            "name": "芒果影视",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/百忙无果.js"
-        },
-        {
-            "key": "drpy_js_奇珍异兽",
-            "name": "奇异影视",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/奇珍异兽.js"
-        },
-          {
-            "key": "csp_PianKu8",
-            "name": "山楂┃1080P",
-            "type": 3,
-            "api": "csp_PianKu8"
-        },
-
-  {
+     {
             "key": "天堂",
             "name": "天堂┃1080P",
             "type": 3,
@@ -376,9 +293,132 @@
                 "decrypt": "0"
             }
         },
+ {
+            "name": "瓜子┃1080P",
+            "key": "Guazi",
+            "type": 3,
+      
+            "api": "csp_GuaziAmns",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "sites": "",
+                "filters": "https://file.icve.com.cn/file_doc/822/528/CD984013F5776F759DFC815995F87BFB.aowu"
+            },
+            "jar": "./jars/弹幕.jar"
+        },
+           {
+            "key": "csp_Jpys",
+            "name": "金牌┃1080P",
+            "type": 3,
+              "jar": "./jars/xiaomi.jar", 
+            "timeout": 12,
+            "searchable": 1,
+            "quickSearch": 0,
+            "api": "csp_Jpys",
+            "ext": "https://y2s52n7.com"
+        },
+     {
+            "key": "csp_PianKu8",
+            "name": "山楂┃1080P",
+            "type": 3,
+              "jar": "./jars/xiaomi.jar", 
+            "api": "csp_PianKu8"
+        },
+
+  
+  
+ {
+            "key": "剧圈99",
+            "name": "剧圈┃1080P",
+            "type": 3,
+            "api": "csp_App99",
+            "ext": {
+                "host": "http://124.221.3.182:19987/app/bn",
+                "appkey": "d1f0c269eab74d93821fffc9befdbbba",
+                "versionName": "1.2.0",
+                "name": "剧圈圈",
+                "package": "com.qingtangxiaozhuan.xyz",
+                "buildNumber": "2002",
+                "buildSignature": "054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"
+            }
+        },
+
+
+         {
+            "key": "独播库",
+            "name": "独播┃1080P",
+            "type": 3,
+          "jar": "./jars/bzc0218.png",    
+            "api": "./js/独播库.js",
+            "changeable": 1
+        },
+         {
+            "key": "热播",
+            "name": "热播┃1080P",
+            "type": 3,
+              "jar": "./jars/fty.jar",
+            "api": "csp_AppTTGuard",
+            "timeout": 10,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "uqGL1bNENExT7/hGxpSE5qU="
+        },
+ {
+            "key": "drpy_js_奇珍异兽",
+            "name": "奇异影视",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/奇珍异兽.js"
+        },
+       {
+            "key": "优酷视频",
+            "name": "优酷┃1080P",
+            "type": 3,
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
+            "ext": "https://kong88.dpdns.org/lib/优酷视频.js"
+        },
+      
+      
+        {
+            "key": "drpy_js_腾云驾雾",
+            "name": "腾云┃1080P",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/腾云驾雾.js"
+        },
+        {
+            "key": "drpy_js_百忙无果",
+            "name": "芒果影视",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/百忙无果.js"
+        },
+          {
+            "key": "量子采集",
+            "name": "量子┃1080P",
+            "type": 0,
+            "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "categories": [
+                "电影片",
+                "连续剧",
+                "动漫片",
+                "综艺片",
+                "电影解说",
+                "体育"
+            ]
+        },
+    
+    
         {
             "key": "push_agent",
-            "name": "推送┃播放",
+            "name": " 推送┃播放",
             "type": 3,
             "filterable": 0,
             "changeable": 0,
@@ -394,7 +434,7 @@
             "type": 3,
             "url": "Demo"
         },
-          {
+       {
             "name": "💝分享者解析①",
             "type": 1,
             "url": "https://test1.12321app.com/daoliansiquanjia.php?url="
@@ -406,31 +446,39 @@
             "type": 1,
             "url": "https://player.gimy.bot/u/parse.php?url="
         },
+       
+       
         {
-            "name": "🎬 影视聚合",
-            "type": 3,
-            "url": "影视"
-        },
-        {
-            "name": "🐮 牛牛解析",
-            "type": 1,
-            "url": "",
+            "name": "💝分享者解析+",
+            "type": 0,
+            "url": "https://yparse.ik9.cc/index.php?url=",
             "ext": {
-                "flag": [
-                    "QD4K",
-                    "iyf",
-                    "duanju",
-                    "gzcj",
-                    "GTV",
-                    "GZYS",
-                    "weggz",
-                    "Ace"
-                ],
                 "header": {
-                    "User-Agent": "okhttp/4.9.1"
+                    "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
                 }
             }
         },
+        {
+            "name": "💝分享者解析",
+            "type": 0,
+            "url": "https://jx.yparse.com/index.php?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
+        },
+         {
+            "name": "💕分享虾米",
+            "type": 0,
+            "url": "https://jx.xmflv.com/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                }
+            }
+        },
+        
         {
             "name": "🌃 夜幕解析",
             "type": 0,
@@ -481,7 +529,7 @@
                 "社 区",
                 "有趣",
                 "有 趣",
-                "新片首发",
+             
                 "UUE29"
             ]
         },
