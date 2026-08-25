@@ -15,7 +15,7 @@
            {
             "name": "电信直播",
             "type": 0,
-            "url": "https://gitee.com/zhujrong/zy/raw/master/lives/dxzb.txt",
+            "url": "https://gitee.com/zhujrong/zy/raw/master/lives/dxzb0825.txt",
             "epg": "https://epg.v1.mk/json?ch={name}&date={date}"
         },
 
