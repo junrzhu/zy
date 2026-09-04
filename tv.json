@@ -378,7 +378,7 @@
             "key": "优酷视频",
             "name": "优酷┃1080P",
             "type": 3,
-            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
+           "api": "./api/drpy2.min.js",
               "ext": "./js/优酷.js"
         },
       
