@@ -93,7 +93,13 @@
             "ext": "https://yzysap.oss-cn-hangzhou.aliyuncs.com/sss.txt|wNCwbXzr0Bm6cS2C|V122|okhttp/3.10.0"
         },
       {"key":"南瓜","name":"南瓜┃1080P","type":3,"api":"csp_NanGua","playerType":2,  "jar": "./jars/fxz250711.jar","ext":"7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"}, 
-  
+  {
+    "key": "liuliys",
+    "name": "蓝天专用",
+    "type": 3,
+    "api": "https://gitee.com/zhujrong/zy/raw/master/js/蓝天.js",
+    "indexs": 0
+},
       
   
       
