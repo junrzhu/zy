@@ -303,17 +303,14 @@
                 "decrypt": "0"
             }
         },
-  {
-            "key": "瓜子",
-            "name": "瓜子┃不卡",
-            "type": 3,
-            "api": "csp_AppgzGuard",
-            "timeout": 15,
-            "playerType": "2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
+ {
+    "key": "csp_瓜子",
+    "name": "影視┃瓜子",
+    "type": 3,
+       "jar": "./jars/MS.jar",
+    "api": "csp_Gz360",
+    "indexs": 0
+},
            {
             "key": "csp_Jpys",
             "name": "金牌┃1080P",
