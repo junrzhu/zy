@@ -100,7 +100,34 @@
     "api": "https://gitee.com/zhujrong/zy/raw/master/js/蓝天.js",
     "indexs": 0
 },
-      
+     {
+    "key": "dr_腾迅",
+    "name": "騰訊┃ TV",
+    "type": 3,         
+     "api": "https://gh-proxy.com/https://raw.githubusercontent.com/junrzhu/tv/refs/heads/main/api/drpy2.min.js",
+    "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/junrzhu/tv/refs/heads/main/js/QQtv.js"       
+},
+{
+    "key": "dr_芒果",
+    "name": "芒果┃ TV",
+    "type": 3,
+ "api": "https://gh-proxy.com/https://raw.githubusercontent.com/junrzhu/tv/refs/heads/main/api/drpy2.min.js",
+    "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/junrzhu/tv/refs/heads/main/js/MGtv.js"
+},
+{
+    "key": "dr_奇异",
+    "name": "奇藝┃ TV",
+    "type": 3,
+    "api": "https://gh-proxy.com/https://raw.githubusercontent.com/junrzhu/tv/refs/heads/main/api/drpy2.min.js",
+    "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/junrzhu/tv/refs/heads/main/js/AQItv.js"
+},
+{
+    "key": "dr_优酷",
+    "name": "優酷┃ TV",
+    "type": 3,
+    "api": "https://gh-proxy.com/https://raw.githubusercontent.com/junrzhu/tv/refs/heads/main/api/drpy2.min.js",
+    "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/junrzhu/tv/refs/heads/main/js/优酷.js"
+},    
   
       
       
