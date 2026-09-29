@@ -128,7 +128,12 @@
     "api": "https://gh-proxy.com/https://raw.githubusercontent.com/junrzhu/tv/refs/heads/main/api/drpy2.min.js",
     "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/junrzhu/tv/refs/heads/main/js/优酷.js"
 },    
-  
+   {
+      "key": "小苹果.py",
+      "name": "分享苹果",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/maoystv/6/main/PY/分享者小苹果.py"
+    },
       
       
         {
