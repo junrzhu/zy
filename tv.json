@@ -444,36 +444,8 @@
             "changeable": 1,
             "ext": "uqGL1bNENExT7/hGxpSE5qU="
         },
- {
-            "key": "drpy_js_奇珍异兽",
-            "name": "奇异影视",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/奇珍异兽.js"
-        },
-       {
-            "key": "优酷视频",
-            "name": "优酷┃1080P",
-            "type": 3,
-           "api": "./api/drpy2.min.js",
-              "ext": "./js/优酷.js"
-        },
-      
-      
-        {
-            "key": "drpy_js_腾云驾雾",
-            "name": "腾云┃1080P",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/腾云驾雾.js"
-        },
-        {
-            "key": "drpy_js_百忙无果",
-            "name": "芒果影视",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/百忙无果.js"
-        },
+
+        
           {
             "key": "量子采集",
             "name": "量子┃1080P",
