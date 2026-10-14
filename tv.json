@@ -134,7 +134,16 @@
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/junrzhu/zy/main/PY/分享者小苹果.py"
     },
-      
+      {
+    "key": "csp_BiliMV",
+    "name": "哔哩┃音乐",
+    "type": 3,
+    "jar": "./jars/MS.jar",
+    "api": "csp_Bili",
+    "ext": {
+    "json": "https://testingcf.jsdelivr.net/gh/LIUJEI/TS@main/TS/音乐.json",
+    "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"}
+}, 
       
         {
             "key": "爱营",
