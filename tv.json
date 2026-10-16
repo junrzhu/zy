@@ -153,6 +153,13 @@
     "indexs": 0
 }, 
         {
+    "key": "py_hongguo",
+    "name": "短劇┃红果",
+    "type": 3,
+     "jar": "./jars/MS.jar", 
+    "api": "https://gitee.com/zhujrong/zy/raw/master/py/红果.py"
+    },   
+        {
             "key": "爱营",
             "name": "爱影┃1080P",
             "type": 3,
