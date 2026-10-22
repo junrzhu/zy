@@ -153,8 +153,16 @@
     "indexs": 0
 }, 
         {
+            "key": "红果短剧",
+            "name": "红果 | 短剧",
+            "type": 3,
+             "jar": "./jars/easy10.21.png", 
+            "api": "./PY/红果短剧.py",
+            "genre": "shortdrama"
+        },
+        {
     "key": "py_hongguo",
-    "name": "短劇┃红果",
+    "name": "短劇┃红果2",
     "type": 3,
      "jar": "./jars/MS.jar", 
     "api": "https://gitee.com/zhujrong/zy/raw/master/py/红果.py"
